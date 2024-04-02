@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.subtitle {
+  color: var(--btn);
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+}
+.box :first-child {
+  color: #3673fd;
+}
+
+.imageContainer {
+  flex: 1;
+  position: relative;
+}
