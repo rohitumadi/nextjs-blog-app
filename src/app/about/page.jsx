@@ -7,8 +7,13 @@ function AboutPage() {
         <h2 className={styles.subtitle}>About Us</h2>
         <h1 className={styles.title}>We create the best solutions for you</h1>
         <p className={styles.desc}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          unde sequi cupiditate, enim non omnis sit quae odio numquam quasi?
+          Creative Thoughts Agency is a dynamic creative hub dedicated to
+          bringing innovative ideas to life. Specializing in marketing, design,
+          and content creation, we merge strategic thinking with artistic flair
+          to craft compelling narratives and captivating visuals that resonate
+          with audiences. Our collaborative approach fosters creativity, driving
+          impactful solutions tailored to meet each client's unique needs and
+          objectives.
         </p>
         <div className={styles.boxes}>
           <div className={styles.box}>
@@ -27,7 +32,7 @@ function AboutPage() {
       </div>
 
       <div className={styles.imageContainer}>
-        <Image src="/about.png" alt="About" fill />
+        <Image className={styles.img} src="/about.png" alt="About" fill />
       </div>
     </div>
   );

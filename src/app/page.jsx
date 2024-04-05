@@ -5,10 +5,7 @@ function Home() {
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Creative Thoughts Agency</h1>
-        <p className={styles.desc}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          unde sequi cupiditate, enim non omnis sit quae odio numquam quasi?
-        </p>
+        <p className={styles.desc}>Where Ideas Ignite</p>
         <div className={styles.btns}>
           <button className={styles.btn}>Get Started</button>
           <button className={styles.btn}>Learn More</button>
